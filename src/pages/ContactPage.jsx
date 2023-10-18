@@ -14,7 +14,7 @@ export const ContactPage = () => {
             .post(
                 "https://api.telegram.org/bot6048445366:AAHRQYzcDieznZusej6TfhFTf1vYTgnFtCc/sendMessage",
                 {
-                    chat_id: "5356847426",
+                    chat_id: "5084090151",
                     text: `name: ${input.current.value}\nemail: ${email.current.value}\nphoneNumber: ${phoneNumber.current.value}\nmessage: ${message.current.value} `,
                 }
             )

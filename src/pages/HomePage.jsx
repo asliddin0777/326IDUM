@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import bkcg from "../assets/images/bgImage.png";
 import dots from "../assets/icons/Group 44.svg";
-import brat from "../assets/images/image 19.png";
+import brat from "../assets/images/iroda.jpg";
 import LineTh from "../assets/images/Vector 1.png";
 import Icon1 from "../assets/images/Group 30.png";
 import Icon2 from "../assets/images/Group 31.png";
@@ -52,20 +52,15 @@ export const HomePage = () => {
                 <div className="containerAbout">
                     <div className="aboutmain">
                         <div className="aboutLeft">
-                            <img className="abOne" src={brat} alt="" />
+                            <img className="abOne" style={{width: 470, height: 360, objectFit: "cover"}}  src={brat} alt="" />
                             <div className="abTwo">
                                 <img src={dots} alt="" />
                             </div>
                         </div>
                         <div className="aboutRight">
                             <h1>
-                                This person is our school <br /> principal Alisher aka Ganjivey
+                                This person is our school <br /> principal Yuldashbekova Iroda Aripovna
                             </h1>
-                            <p>
-                                Puji dan syukur mari kita panjatkan kehadirat Allah SWT. Yang
-                                senantiasa dengan sifat kasih dan sayangnya banyak memberikan
-                                nikmat ...
-                            </p>
                             <a href="/aboutHeaTech">
                                 <button>About principal</button>
                             </a>
