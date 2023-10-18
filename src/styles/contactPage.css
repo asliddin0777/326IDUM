@@ -1,0 +1,105 @@
+.contactPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.containerContact {
+    width: 1150px;
+}
+
+.contactForm {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 80px;
+}
+
+.inputSection {
+    display: flex;
+    gap: 24px;
+}
+
+p {
+    color: #75818A;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.inputSection input {
+    width: 394px;
+    height: 56px;
+    border-radius: 8px;
+    background: #F6F7F9;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+textarea:focus-visible {
+    outline: none;
+}
+
+.phoneNumber {
+    margin-top: 24px;
+}
+
+.phoneNumber input {
+    width: 812px;
+    height: 56px;
+    border-radius: 8px;
+    background: #F6F7F9;
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+
+}
+
+
+.textAreaInput {
+    margin-top: 24px;
+}
+
+.textAreaInput textarea {
+    width: 812px;
+    height: 200px;
+    border-radius: 8px;
+    background: #F6F7F9;
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    resize: none;
+}
+
+.button {
+    padding: 11px 72px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 4px;
+    background: #0193DC;
+    border: none;
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.map {
+    margin-top: 80px;
+}

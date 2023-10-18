@@ -1,0 +1,41 @@
+.backSection {
+    background-image: url('../assets/images/bgImage.png');
+    width: 100%;
+    height: 527px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backContainer {
+    width: 1150px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 80px;
+
+}
+
+.slidesTitle {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #fff;
+    text-align: center;
+}
+
+.corusel {
+    padding-top: 40px;
+    border-radius: 20px;
+}
+
+.backCard {
+    padding: 20px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.219px;
+    color: #fff;
+    padding: 16px;
+}

@@ -1,0 +1,475 @@
+.about {
+    padding: 80px 0;
+}
+
+.forBckg {
+    background-image: url('../assets/images/bgImage.png');
+    width: 100%;
+    height: 527px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.homeContainer {
+    width: 1150px;
+    margin:auto;
+    padding-top: 110px;
+}
+
+.hBottom .hBottomManin h1 {
+    color: #fff;
+    font-family: "Bold", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    opacity: 0.6;
+    /* margin-bottom: 20px; */
+}
+
+.hBottom .hBottomManin p {
+    width: 690px;
+    color: #fff;
+    font-family: "Bold", sans-serif;
+    font-size: 29px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+}
+
+.hBottom .hBottomManin a {
+    text-decoration: none;
+}
+
+.hBottom .hBottomManin button {
+    width: 164px;
+    border-radius: 4px;
+    background: #0193dc;
+    color: #fff;
+    text-align: center;
+    font-family: "Bold", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: 0.3px;
+    margin-top: 50px;
+    padding: 15px;
+    text-align: center;
+    border: none;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.hBottom .hBottomManin button:hover {
+    transform: scale(1.1);
+}
+
+.about .aboutmain {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.about .aboutmain .aboutLeft {
+    position: relative;
+}
+
+.containerAbout {
+    width: 1150px;
+    margin: auto;
+    justify-content: center;
+}
+
+.abTwo {
+    position: absolute;
+    bottom: -40px;
+    left: -30px;
+    z-index: -1;
+}
+
+.aboutRight h1 {
+    color: var(--secondary, #0c101a);
+    font-family: "Bold", sans-serif;
+    font-size: 30px;
+    line-height: 48px;
+    letter-spacing: 0.3px;
+}
+
+.aboutRight p {
+    color: var(--medium-dark, #919fae);
+    font-family: "Regular", sans-serif;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    margin-top: 24px;
+}
+
+.aboutRight a {
+    text-decoration: none;
+}
+
+.aboutRight button {
+    width: 184px;
+    border-radius: 4px;
+    background: #0193dc;
+    padding: 12px;
+    color: var(--White-color, #fff);
+    text-align: center;
+    font-family: "Bold", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    border: none;
+    margin-top: 40px;
+    transition: .5s ease;
+}
+
+.aboutRight button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* about ends */
+
+/* profile starts */
+.profile {
+    border-radius: 4px;
+    background: #f9fbfd;
+    padding: 40px 0;
+    margin-top: 40px;
+}
+
+.profile .profileMain {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.profile .profileMain .profileLeft {
+    display: flex;
+    align-items: center;
+    gap: 82px;
+}
+
+.profile .profileMain .profileLeft .pLeft1 {
+    width: 368px;
+}
+
+.profile .profileMain .profileLeft .pLeft1 h1 {
+    color: var(--secondary, #0c101a);
+    font-family: "Bold", sans-serif;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.3px;
+    margin-bottom: 16px;
+}
+
+.profile .profileMain .profileLeft .pLeft1 p {
+    color: var(--medium-dark, #919fae);
+    font-family: "Regular", sans-serif;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+}
+
+.containerProfile {
+    width: 1150px;
+    margin: auto;
+    justify-content: center;
+}
+
+.profile .profileMain .profileLeft .pLeft1 a {
+    text-decoration: none;
+}
+
+.profile .profileMain .profileLeft .pLeft1 button {
+    width: 190px;
+    color: #fff;
+    text-align: center;
+    font-family: "Bold", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    padding: 12px;
+    border-radius: 4px;
+    background: #0193dc;
+    border: none;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+
+.profile .profileMain .profileLeft .pLeft1 button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.profile .profileMain .profileRight .boxesTwo {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.profile .profileMain .profileRight .boxesTwo a {
+    text-decoration: none;
+}
+
+.profile .profileMain .profileRight .boxesTwo .box {
+    width: 290px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+    padding: 40px 17px;
+}
+
+.profile .profileMain .profileRight .boxesTwo .box p {
+    color: var(--secondary, #0c101a);
+    font-family: "Bold", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.profile .profileMain .profileRight .boxesTwo .box h6 {
+    color: var(--medium-dark, #919fae);
+    font-family: "Regular", sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.profile .profileMain .profileRight .boxeOne a {
+    text-decoration: none;
+}
+
+.profile .profileMain .profileRight .boxeOne .box {
+    width: 100%;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+    padding: 40px 17px;
+}
+
+.profile .profileMain .profileRight .boxeOne .box p {
+    color: var(--secondary, #0c101a);
+    font-family: "Bold", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.profile .profileMain .profileRight .boxeOne .box h6 {
+    color: var(--medium-dark, #919fae);
+    font-family: "Regular", sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+
+.containerGallery {
+    width: 1150px;
+    margin: auto;
+    justify-content: center;
+}
+
+/* profile endss */
+
+/* kuntartibi starts */
+.kunTartibi {
+    padding: 80px 0;
+}
+
+.containerDoing {
+    width: 1150px;
+    margin: auto;
+    justify-content: center;
+}
+
+.kunTartibi .forInput {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    margin-bottom: 70px;
+}
+
+.kunTartibi .forInput h1 {
+    color: var(--secondary, #0c101a);
+    font-family: "Bold", sans-serif;
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: 0.3px;
+}
+
+.kunTartibi .forInput input {
+    width: 400px;
+    padding: 15px 25px;
+    border-radius: 4px;
+    background: #f6f7f9;
+    border: none;
+    outline: none;
+}
+
+.kunTartibi .agendaMain {
+    display: flex;
+    gap: 60px;
+}
+
+.kunTartibi .agendaMain .agendaLeft {
+    border-right: 1px solid #f4f6f5;
+    padding-right: 60px;
+}
+
+.kunTartibi .agendaMain .innerLeft img {
+    border-radius: 10px;
+}
+
+.kunTartibi .agendaMain .agendaCards {
+    gap: 30px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.kunTartibi .agendaMain .innerRight {
+    width: 370px;
+}
+
+.kunTartibi .agendaMain .innerRight .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.kunTartibi .agendaMain .innerRight h1 {
+    color: var(--secondary, #0c101a);
+    font-family: "Bold", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+}
+
+.kunTartibi .agendaMain .innerRight p {
+    color: var(--medium-dark, #919fae);
+    font-family: "Regular", sans-serif;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.kunTartibi .agendaMain .innerRight .arrow p {
+    color: #919fae;
+    font-family: "Regular", sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.kunTartibi .rightInner img {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+}
+
+.kunTartibi .rightCard {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.kunTartibi .agendaMain .leftInner {
+    width: 350px;
+}
+
+.kunTartibi .agendaMain .leftInner .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.kunTartibi .agendaMain .leftInner .arrow p {
+    color: var(--medium-dark, #919fae);
+    font-family: "Regular", sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.kunTartibi .agendaMain .leftInner p {
+    color: var(--secondary, #0c101a);
+    font-family: "Bold", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+}
+
+/* kun tartibi endss */
+
+/* galery starts */
+.gallery {
+    padding: 80px 0;
+    border-radius: 4px;
+    background: #f9fbfd;
+}
+
+.gallery h1 {
+    color: var(--secondary, #0c101a);
+    font-family: "Bold", sans-serif;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.3px;
+    margin-bottom: 40px;
+}
+
+.gallery .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    gap: 20px;
+}
+
+.gallery .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item img {
+    border-radius: 10px;
+    transition: .5s ease;
+}
+
+.grid-item img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.gallery a {
+    text-decoration: none;
+}
+
+.gallery a button {
+    width: 184px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 4px;
+    background: #0193dc;
+    color: #fff;
+    text-align: center;
+    font-family: "Bold", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.gallery a button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

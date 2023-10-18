@@ -1,0 +1,112 @@
+.journalPage {
+    justify-content: center;
+    width: 100%;
+}
+
+.journalContainer {
+    width: 1150px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.journalTitle {
+    color: #0C101A;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.table {
+    margin-top: 40px;
+}
+
+.tableJouranl {
+    width: 100%;
+    stroke-width: 1px;
+    stroke: #EEEFEF;
+    cursor: pointer;
+
+}
+
+.tableTitle {
+    background-color: #2BA7E2;
+    stroke-width: 1px;
+    stroke: #ECECEC;
+
+}
+
+.dn {
+    height: 0;
+    transition: 0.1s linear;
+    text-align: center;
+    display: none;
+}
+
+.just {
+    transition: 0.3s ease-in-out;
+    margin-top: 1rem;
+
+}
+
+.tr {
+    background: #9db9ce;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.td {
+    background: #B9CAFF;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.td1 {
+    border: 1px solid #ECECEC;
+    background: #FFF;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.th {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.studentStudy {
+    margin-top: 80px;
+}
+
+.studyTable {
+    margin-top: 40px;
+}
+
+.cardList {
+  
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardList h3 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card {
+    margin-top: 20px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    background-color: #2BA7E2;
+}
