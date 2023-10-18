@@ -1,6 +1,5 @@
 import React from "react";
 import Icon from "../../assets/images/logo.jpg";
-// import Social from "../image/Social Media.png";
 import '../../styles/footer.css'
 
 const Footer = () => {
